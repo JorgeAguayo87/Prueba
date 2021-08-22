@@ -1,2 +1,2 @@
-# testing
-Repositorio de prueba
+# Prueba
+Repositorio Git de prueba

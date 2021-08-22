@@ -18,7 +18,7 @@ def catfact():
     #print to console
     print("Did you know?: " + printable_fact)
     return Response(json.dumps(fact))
-
+#Lineas de Extraccion 
 @app.route("/get-price/<ticker>")
 def get_price(ticker):
     url = f"https://query2.finance.yahoo.com/v10/finance/quoteSummary/{ticker}?modules=price%2CsummaryDetail%2CpageViews%2CfinancialsTemplate"
